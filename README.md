@@ -1,2 +1,2 @@
 # etl_framework
-ETL framework from various sources
+ETL framework, loading delta tables (Unity Catalog) from staging layer to curated.
