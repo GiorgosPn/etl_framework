@@ -4,12 +4,11 @@ from enum import Enum
 
 class WriteMode(Enum):
     """
-    Enum for ERB writing mode (overwrite, append, δέλτα)
+    Enum for writing mode (overwrite, append)
     """
     OVERWRITE = "overwrite"
     APPEND = "append"
-    DELTA = "delta"
-
+    
 class UnityWriteModeFactory:
     """
     A factory that contains data write methods for Unity Tables.
